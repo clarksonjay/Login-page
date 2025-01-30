@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background-color: hsl(323, 44%, 55%);
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form{
+  background-color: transparent;
+  border: 2px solid hsla(210, 100%, 98%, 0.6);
+  backdrop-filter: blur(50px);
+  padding: 20px 10px 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  color: hsla(210, 100%, 98%, 0.986);
+}
+
+.login-form h2{
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: hsla(210, 100%, 98%, 0.986);
+}
+
+.login-form p{
+  font-size: 15px;
+  font-weight: 400;
+  color: hsla(210, 100%, 98%, 0.89);
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+
+.login-form input{
+  width: 100%;
+  border: 2px solid hsla(210, 100%, 98%, 0.7);
+  outline: none;
+  color: hsla(210, 100%, 98%, 0.89);
+  height: 40px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 5px 0 5px 10px;
+  background: transparent;
+}
+
+.login-form input::placeholder{
+  color: hsla(210, 100%, 98%, 0.89);
+}
+
+.remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.remember-forgot input{
+  height: 13px;
+  width: 13px;
+}
+
+.remember-forgot label{
+  font-size: 15px;
+}
+
+.remember-forgot a{
+  font-size: 15px;
+  color: hsla(210, 100%, 98%, 0.89);
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.remember-forgot a:hover{
+  text-decoration: underline;
+ 
+}
+
+.login-form button {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: hsl(0, 2%, 16%);
+  transition: all ease-in-out 0.25s;
+  cursor: pointer;
+}
+
+.login-form button:hover{
+  background-color: hsla(210, 100%, 98%, 0.8);
+}
+
+.signup{
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+.signup p a{
+  color: hsla(210, 100%, 98%, 0.89);
+}
+
+
+
+
+
